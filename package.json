@@ -1,0 +1,23 @@
+{
+  "name": "cypressauto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcandas/cypressamazon.git"
+  },
+  "author": "fc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcandas/cypressamazon/issues"
+  },
+  "homepage": "https://github.com/fcandas/cypressamazon#readme",
+  "devDependencies": {
+    "cypress": "^8.7.0"
+  }
+}
