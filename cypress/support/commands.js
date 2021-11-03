@@ -35,3 +35,18 @@ Cypress.Commands.add('featuredListing', () => {
     cy.get('a[id="s-result-sort-select_1"]').should('be.visible').click()
 })
 
+Cypress.Commands.add('clickHMbutton', () => {
+
+    cy.get('i[class="hm-icon nav-sprite"]').should('be.visible').click()
+
+})
+
+Cypress.Commands.add('clickX', () => {
+
+    cy.get('div[class="nav-sprite hmenu-close-icon"]').should('be.visible').click()
+
+})
+
+
+
+

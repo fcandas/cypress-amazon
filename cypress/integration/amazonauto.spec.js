@@ -18,6 +18,18 @@ describe('Amazon Automation Test', () =>{
 
     });
 
+    it('Click hamburger button', () => {
+
+        cy.clickHMbutton();
+
+    });
+
+    it('Click X', () => {
+
+        cy.clickX();
+
+    });
+
     
     
 })
