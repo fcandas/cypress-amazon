@@ -30,6 +30,12 @@ describe('Amazon Automation Test', () =>{
 
     });
 
+    it('Go to main page', () => {
+
+        cy.GotoMainpage();
+
+    });
+
     
     
 })

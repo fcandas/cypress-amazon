@@ -47,6 +47,14 @@ Cypress.Commands.add('clickX', () => {
 
 })
 
+Cypress.Commands.add('GotoMainpage', () => {
+
+    cy.get('a[id="nav-logo-sprites"]').should('be.visible').click()
+
+})
+
+
+
 
 
 
