@@ -36,6 +36,12 @@ describe('Amazon Automation Test', () =>{
 
     });
 
+    it('Change Language', () => {
+
+        cy.changeLang();
+
+    });
+
     
     
 })
