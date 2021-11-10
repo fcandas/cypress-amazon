@@ -24,6 +24,7 @@ Cypress.Commands.add('goToPage', () => {
 Cypress.Commands.add('searchThing', () => {
 
     cy.get('input[id="twotabsearchtextbox"]').should('be.visible').type('Samsung')
+    
     cy.get('input[id="nav-search-submit-button"]').should('be.visible').click()
 
 })
