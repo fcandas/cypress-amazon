@@ -49,7 +49,7 @@ Cypress.Commands.add('changeLang', () => {
 
     cy.get('[id="icp-nav-flyout"]').should('be.visible').click()
     
-    cy.get('i[class="a-icon a-icon-radio"]').contains('Español - ES').click()
+    cy.get('i[class="a-icon a-icon-radio"]').eq(1).click()
 
 })
 
